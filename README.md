@@ -14,7 +14,7 @@ Les étapes pour construire le cube :
 Un LED et une photocellule sont placés sur l’Arduino. La photocellule fonctionne comme un capteur de lumière en fonction duquel le LED s’allume ou pas. Pour alimenter l’Arduino, on utiliser une batterie de 5V.
 Le code simple pour Arduino :
 
-```
+```{cpp}
 int potPin = A0;
 int led_r = 9;
 int led_g = 10;
