@@ -10,8 +10,12 @@ Les étapes pour construire le cube :
 3.	Modifier la dimension de votre document selon votre machine de laser-cut. Dans mon cas, le document doit être de taille 609mm x 304mm.
 4.	Imprimer votre produit avec un découpe laser et assembler les pièces !
 
+![Cube et Arduino](https://github.com/fidele007/cube-lumiere/raw/master/cube_arduino.JPG)
+
 ##Arduino
 Un LED et une photocellule sont placés sur l’Arduino. La photocellule fonctionne comme un capteur de lumière en fonction duquel le LED s’allume ou pas. Pour alimenter l’Arduino, on utilise une batterie de 5V.
+
+La couleur de LED change d'une couleur à une autre de manière aléatoire parmi les différentes combinaisons entre les trois couleurs principales dont le rouge, le vert et le bleu.
 
 Le code pour Arduino :
 
@@ -134,3 +138,10 @@ void loop() {
 ```
 
 Regardons les résultats lorsqu’il fait nuit !
+
+![Aigle](https://github.com/fidele007/cube-lumiere/raw/master/aigle.JPG)
+![Araignee](https://github.com/fidele007/cube-lumiere/raw/master/araignee.JPG)
+![Cygne](https://github.com/fidele007/cube-lumiere/blob/master/cygne.JPG)
+![Perroquet](https://github.com/fidele007/cube-lumiere/raw/master/perroquet.JPG)
+
+Lien vers la vidéo de la démonstration : https://vimeo.com/166736057 
